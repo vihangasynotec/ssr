@@ -195,10 +195,10 @@ export default function AboutPage() {
 
               <div className="pt-4">
                 <Link
-                  href="/join"
+                  href="/contact"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-ssr-red hover:bg-ssr-deepred text-white text-xs font-black tracking-widest uppercase rounded-xl shadow-ssr-red transition-all"
                 >
-                  <span>CONNECT WITH SSR</span>
+                  <span>CONTACT US</span>
                   <ArrowUpRight className="w-4 h-4" />
                 </Link>
               </div>

@@ -30,7 +30,7 @@ export default function JoinCTA() {
                 <span className="w-1.5 h-1.5 rounded-full bg-ssr-red animate-ping" />
                 <span className="w-1.5 h-1.5 rounded-full bg-ssr-red -ml-3" />
                 <Sparkles className="w-3.5 h-3.5 text-ssr-red" />
-                <span>MEMBERSHIP & COMMUNITY INVITATION</span>
+                <span>CONNECT WITH SOUTHERN SUPER RIDERS</span>
               </div>
 
               {/* Headline */}
@@ -69,10 +69,10 @@ export default function JoinCTA() {
               {/* Action Buttons */}
               <div className="pt-3 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
                 <Link
-                  href="/join"
+                  href="/contact"
                   className="px-8 py-4 bg-gradient-to-r from-ssr-red to-[#B5121B] hover:from-[#FF2A32] hover:to-ssr-red text-white text-xs font-black tracking-widest uppercase rounded-2xl shadow-[0_0_30px_rgba(227,30,36,0.6)] hover:shadow-[0_0_45px_rgba(227,30,36,0.9)] transition-all duration-300 transform hover:-translate-y-1 active:translate-y-0 flex items-center justify-center gap-2.5 border border-red-500/50"
                 >
-                  <span>BECOME PART OF SSR</span>
+                  <span>CONTACT US TODAY</span>
                   <ArrowUpRight className="w-4 h-4" />
                 </Link>
 

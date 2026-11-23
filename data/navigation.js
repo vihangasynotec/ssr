@@ -10,6 +10,6 @@ export const NAV_LINKS = [
 ];
 
 export const CTA_LINK = {
-  name: 'JOIN SSR',
-  href: '/join',
+  name: 'CONTACT US',
+  href: '/contact',
 };

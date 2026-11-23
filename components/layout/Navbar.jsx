@@ -101,7 +101,7 @@ export default function Navbar() {
               })}
             </nav>
 
-            {/* RIGHT SIDE: Redesigned WhatsApp Button + Glow Join SSR */}
+            {/* RIGHT SIDE: Redesigned WhatsApp Button + Glow Contact Us */}
             <div className="hidden lg:flex items-center gap-3 shrink-0">
               {/* Upgraded Authentic WhatsApp Button */}
               <a
@@ -125,7 +125,7 @@ export default function Navbar() {
                 </span>
               </a>
 
-              {/* Upgraded Glowing JOIN SSR Button */}
+              {/* Upgraded Glowing CONTACT US Button */}
               <Link
                 href={CTA_LINK.href}
                 className="group relative inline-flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-ssr-red via-[#FF2A32] to-[#B5121B] hover:from-[#FF3B43] hover:to-ssr-red text-white text-xs font-black tracking-widest uppercase rounded-full shadow-[0_0_25px_rgba(227,30,36,0.6)] hover:shadow-[0_0_35px_rgba(227,30,36,0.9)] hover:scale-105 active:scale-100 transition-all duration-300 border border-red-500/50 overflow-hidden"
@@ -136,7 +136,7 @@ export default function Navbar() {
               </Link>
             </div>
 
-            {/* Mobile Actions: WhatsApp Icon + Join + Hamburger */}
+            {/* Mobile Actions: WhatsApp Icon + Contact + Hamburger */}
             <div className="flex items-center gap-2 xl:hidden">
               <a
                 href={BRAND.whatsappUrl}
@@ -154,7 +154,7 @@ export default function Navbar() {
                 href={CTA_LINK.href}
                 className="inline-flex items-center px-3.5 py-1.5 bg-ssr-red text-white text-xs font-black tracking-wider uppercase rounded-full shadow-[0_0_15px_#E31E24] sm:hidden"
               >
-                JOIN
+                CONTACT
               </Link>
 
               <button
@@ -243,7 +243,7 @@ export default function Navbar() {
             onClick={() => setMobileMenuOpen(false)}
             className="w-full py-3.5 px-4 bg-ssr-red text-white text-center font-black text-xs tracking-widest uppercase rounded-xl shadow-ssr-red flex items-center justify-center gap-2"
           >
-            <span>JOIN SOUTHERN SUPER RIDERS</span>
+            <span>CONTACT SOUTHERN SUPER RIDERS</span>
             <ArrowUpRight className="w-4 h-4" />
           </Link>
 

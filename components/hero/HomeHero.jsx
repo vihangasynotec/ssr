@@ -104,10 +104,10 @@ export default function HomeHero() {
           </Link>
 
           <Link
-            href="/join"
+            href="/contact"
             className="w-full sm:w-auto px-10 py-4 bg-black/60 hover:bg-black/80 text-white border-2 border-white/20 hover:border-ssr-red text-xs font-black tracking-widest uppercase rounded-2xl backdrop-blur-xl shadow-2xl transition-all duration-300 transform hover:-translate-y-1 active:translate-y-0 flex items-center justify-center gap-2.5"
           >
-            <span>JOIN THE BROTHERHOOD</span>
+            <span>CONTACT US</span>
           </Link>
         </div>
 

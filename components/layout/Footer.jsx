@@ -177,11 +177,8 @@ export default function Footer() {
 
           {/* Links & Scroll to top */}
           <div className="flex items-center gap-5">
-            <Link href="/join" className="font-bold text-ssr-red hover:underline">
-              Membership Enquiries
-            </Link>
-            <Link href="/contact" className="hover:text-white transition-colors">
-              Contact Desk
+            <Link href="/contact" className="font-bold text-ssr-red hover:underline">
+              Contact Us
             </Link>
             <button
               onClick={scrollToTop}

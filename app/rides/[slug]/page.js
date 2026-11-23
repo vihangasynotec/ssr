@@ -191,10 +191,10 @@ export default function RideDetailPage({ params }) {
 
               <div className="pt-4 border-t border-white/10">
                 <Link
-                  href="/join"
+                  href="/contact"
                   className="w-full py-3.5 bg-ssr-red hover:bg-ssr-deepred text-white text-xs font-black tracking-widest uppercase rounded-xl transition-all shadow-ssr-red flex items-center justify-center gap-2"
                 >
-                  <span>JOIN NEXT EXPEDITION</span>
+                  <span>CONTACT FOR NEXT EXPEDITION</span>
                   <ArrowUpRight className="w-4 h-4" />
                 </Link>
               </div>

@@ -42,10 +42,10 @@ export default function CommunityPage() {
 
               <div className="pt-2">
                 <Link
-                  href="/join"
+                  href="/contact"
                   className="inline-flex items-center gap-2 px-7 py-3.5 bg-ssr-red hover:bg-ssr-deepred text-white text-xs font-black tracking-widest uppercase rounded-xl transition-all shadow-ssr-red group"
                 >
-                  <span>JOIN THE BROTHERHOOD</span>
+                  <span>CONTACT US</span>
                   <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </Link>
               </div>

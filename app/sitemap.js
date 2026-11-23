@@ -12,7 +12,6 @@ export default function sitemap() {
     '/gallery',
     '/community',
     '/media',
-    '/join',
     '/contact',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
