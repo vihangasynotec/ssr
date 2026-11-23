@@ -168,9 +168,9 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-ssr-red hover:text-red-400 font-bold tracking-wide transition-colors inline-flex items-center gap-1 hover:underline"
-              title="Lunexa Software (PVT) LTD - itzmevihanga"
+              title="ItzmeVihanGa"
             >
-              <span>Lunexa Software (PVT) LTD - itzmevihanga</span>
+              <span>ItzmeVihanGa</span>
               <ArrowUpRight className="w-3 h-3 text-ssr-red" />
             </a>
           </div>
